@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'platzi-store';
+  nombre: string;
+  apellido = 'Hincapie';
+  items = ['holaaaa', 'mundo'];
 }
