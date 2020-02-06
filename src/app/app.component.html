@@ -13,5 +13,6 @@
 <ul>
   <li *ngFor="let item of items; index as p" >
     {{item}} {{p}}
+    <button (click)="restarItem(p)" >Restar item</button>
   </li>
 </ul>

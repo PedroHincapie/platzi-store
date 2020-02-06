@@ -14,4 +14,8 @@ export class AppComponent {
   addItem() {
     this.items.push('nuevo elemenyto');
   }
+
+  restarItem(index: number) {
+    this.items.splice(index, 1);
+  }
 }
