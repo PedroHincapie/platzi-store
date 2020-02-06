@@ -10,4 +10,8 @@ export class AppComponent {
   nombre: string;
   apellido = 'Hincapie';
   items = ['holaaaa', 'mundo'];
+
+  addItem() {
+    this.items.push('nuevo elemenyto');
+  }
 }

@@ -8,6 +8,8 @@
   Esto es un div
 </div>
 
+<button (click)="addItem()">Adicionar Item</button>
+
 <ul>
   <li *ngFor="let item of items; index as p" >
     {{item}} {{p}}
