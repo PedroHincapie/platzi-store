@@ -17,4 +17,7 @@
   </li>
 </ul>
 
-<app-producto></app-producto>
+<div *ngFor="let product of productos">
+  <app-producto [product]="product"></app-producto>
+</div>
+
