@@ -64,4 +64,8 @@ export class AppComponent {
   restarItem(index: number) {
     this.items.splice(index, 1);
   }
+
+  recibirEvento(id: number) {
+    console.log(id);
+  }
 }

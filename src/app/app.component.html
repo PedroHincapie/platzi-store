@@ -18,6 +18,6 @@
 </ul>
 
 <div *ngFor="let product of productos">
-  <app-producto [product]="product"></app-producto>
+  <app-producto (productoClic)="recibirEvento($event)" [product]="product"></app-producto>
 </div>
 
