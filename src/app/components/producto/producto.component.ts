@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from './../../product.model';
 
 @Component({
   selector: 'app-producto',
@@ -8,7 +9,7 @@ import { Component } from '@angular/core';
 export class ProductoComponent {
   constructor() {}
 
-  product = {
+  product: Product = {
     id: '6',
     image: 'assets/images/stickers2.png',
     title: 'Stickers',
